@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* src/components/Header.css */
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    position: relative;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .hero-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Degradado oscuro */
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px; /* Para un poco de margen interno en el contenido */
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero-content nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-content nav ul li {
+    margin: 0 15px;
+  }
+  
+  .hero-content nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  
+  .hero-content nav ul li a:hover {
+    color: #ff0; /* Color de hover */
+    text-decoration: underline;
+  }

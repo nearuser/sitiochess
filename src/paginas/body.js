@@ -5,8 +5,8 @@ function Body() {
   return (
     <main>
       <section id="inicio">
-        <h2>Bienvenidos al Club de Ajedrez Local</h2>
-        <p>Un espacio para los amantes del ajedrez de todas las edades y niveles.</p>
+        <h2>Bienvenidos al Club de Ajedrez de Chile Chico</h2>
+        <p>Un espacio para los amantes del ajedrez de todas las edades y niveles de la ciudad del sol y alrededores.</p>
       </section>
       <section id="sobre-nosotros">
         <h2>Sobre Nosotros</h2>
