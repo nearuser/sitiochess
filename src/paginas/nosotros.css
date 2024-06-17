@@ -1,0 +1,58 @@
+/* src/pages/Nosotros.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Section styles */
+  #sobre-nosotros {
+    background-color: #ffffff7f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Content styles */
+  .fundadores {
+    text-align: center;
+  }
+  
+  .fundadores img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Markdown styles */
+  .markdown-content {
+    text-align: left;
+  }
+  
+  .markdown-content p {
+    margin: 10px 0;
+    color: #f4f4f4
+  }
+  
+  .markdown-content br {
+    display: none;
+  }
+  
