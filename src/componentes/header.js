@@ -15,8 +15,8 @@ function Header() {
         <h1>Club de Ajedrez Chile Chico</h1>
         <nav>
           <ul>
-            <li><NavLink to="/" exact activeClassName="active"><i className="fa-regular fa-chess-king"></i> Inicio</NavLink></li>
-            <li><NavLink to="/sobre-nosotros" activeClassName="active"><i className="fa-solid fa-chess-pawn"></i> Sobre Nosotros</NavLink></li>
+            <li><NavLink to="/" exact activeClassName="active"><i className="fa-regular fa-chess-king"></i> Home</NavLink></li>
+            <li><NavLink to="/sobre-nosotros" activeClassName="active"><i className="fa-solid fa-chess-pawn"></i>  Club</NavLink></li>
             <li><NavLink to="/contacto" activeClassName="active"><i className="fa-regular fa-chess-knight"></i> Contacto</NavLink></li>
           </ul>
         </nav>

@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2024 Club de Ajedrez Chile Chico.</p>
+      <p><i className="fa-solid fa-chess-rook"></i> 2024 Club de Ajedrez Chile Chico <i className="fa-solid fa-chess-rook"></i></p>
     </footer>
   );
 }
