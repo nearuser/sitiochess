@@ -1,7 +1,8 @@
 // src/components/Header.js
 import React from 'react';
-import './header.css'; // Asegúrate de crear este archivo para los estilos
-import banner from '../recursos/imagenes/banner.jpg'
+import { NavLink } from 'react-router-dom';
+import './header.css';
+import banner from '../recursos/imagenes/banner.jpg';
 
 function Header() {
   return (
@@ -14,9 +15,9 @@ function Header() {
         <h1>Club de Ajedrez Chile Chico</h1>
         <nav>
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><NavLink to="/" exact activeClassName="active">Inicio</NavLink></li>
+            <li><NavLink to="/sobre-nosotros" activeClassName="active">Sobre Nosotros</NavLink></li>
+            <li><NavLink to="/contacto" activeClassName="active">Contacto</NavLink></li>
           </ul>
         </nav>
       </div>

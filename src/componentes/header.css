@@ -70,3 +70,20 @@
     color: #ff0; /* Color de hover */
     text-decoration: underline;
   }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #ff0; /* Color de hover */
+    text-decoration: underline;
+  }
+  
+  .active {
+    color: #ff0; /* Color para el enlace activo */
+    font-weight: bold;
+  }
