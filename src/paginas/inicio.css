@@ -90,4 +90,34 @@
   .noticias a:hover {
     text-decoration: underline;
   }
+  /* ---------------------- ESTILO MOVILES -------------------- */
+
+@media (max-width: 768px) {
+    section {
+      display: block; /* Cambiar a display block en dispositivos móviles */
+      padding: 10px; /* Reducir el relleno */
+    }
+  
+    h2 {
+      font-size: 24px; /* Reducir el tamaño del título */
+    }
+  
+    p {
+      font-size: 16px; /* Reducir el tamaño del párrafo */
+    }
+  
+    .invitacion {
+      flex-direction: column; /* Cambiar la dirección de la flexbox a columna */
+    }
+  
+    .invitacion .imagen img {
+      width: 100%; /* Ajustar la imagen al ancho completo del contenedor */
+      margin-top: 0.5em; /* Reducir el espacio superior de la imagen */
+    }
+  
+    .horario iframe {
+      height: 200px; /* Reducir la altura del iframe */
+    }
+  }
+  
   

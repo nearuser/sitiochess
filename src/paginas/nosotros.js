@@ -16,7 +16,7 @@ function Nosotros() {
   }, []);
 
   return (
-    <main>
+    <main id="nosotros">
       <section id="sobre-nosotros">
         <div className='fundadores'>
           <h2>SOBRE EL CLUB Y SU NACIMIENTO</h2>

@@ -5,7 +5,7 @@ import contactoImg from '../recursos/imagenes/contacto.jpg'; // Asegúrate de qu
 
 function Contacto() {
   return (
-    <main>
+    <main id='contacto'>
       <section id="contacto">
         <div className="contact-form">
           <h2>Contacto</h2>
