@@ -1,5 +1,20 @@
 /* src/pages/Home.css */
 
+/*
+         ______________
+        ||            ||
+        ||            ||
+        ||            ||
+        ||            ||
+        ||____________||
+        |______________|
+         \\############\\
+          \\############\\
+           \      ____    \   
+            \_____\___\____\ NOTEBOOKS HASTA 16"
+
+*/
+
 #inicio {
     max-width: 100%;
     margin: 0 auto;
@@ -86,7 +101,7 @@
       justify-content: center; /* Centrar la imagen horizontalmente */
     }
     
-    .torneo .imagen img {
+    .torneo .img_torneo img {
       width: 100%; /* Ajusta el ancho de la imagen dentro de su contenedor */
       margin-top: 1em;
     }
@@ -125,6 +140,36 @@
     text-decoration: underline;
   }
   /* ---------------------- ESTILO MOVILES -------------------- */
+  /*
+          ,--------------------------===---.
+          | Smartphone                      |
+          | ,----------------------------.  |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |                             | |
+          | |.............................| |
+          | |  _  :          '      :  _  | |
+          | | |_| :                 : |_| | |
+          | |  _  :_               _:  _  | |
+          | | |_| :.)        .    (.: |_| | |
+          | '-----....._________.....-----' |
+          |     _    _     O     _    _     |
+          |    |_|  |_|    |    |_|  |_|    |
+          "------......____O____......------"
+  
+  */
 
 @media (max-width: 768px) {
     section {
@@ -139,6 +184,8 @@
     p {
       font-size: 16px; /* Reducir el tamaño del párrafo */
     }
+
+    /*------------------ INVITACIÓN MOVIL*/
   
     .invitacion {
       flex-direction: column; /* Cambiar la dirección de la flexbox a columna */
@@ -147,6 +194,32 @@
     .invitacion .imagen img {
       width: 100%; /* Ajustar la imagen al ancho completo del contenedor */
       margin-top: 0.5em; /* Reducir el espacio superior de la imagen */
+    }
+
+    /*------------------ SECCIÓN FLAYER DE TORNEO MOVIL -------------------- */
+
+    .torneo {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: left; /* Alinear el texto a la izquierda */
+      margin-bottom: 2em;
+    }
+
+    .torneo .texto h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    
+    .torneo .texto p {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    
+    .torneo .img_torneo img {
+      width: 100%; /* Ajusta el ancho de la imagen dentro de su contenedor */
+
+      margin-top: 1em;
     }
   
     .horario iframe {
