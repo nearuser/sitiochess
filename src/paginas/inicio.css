@@ -24,6 +24,8 @@
     text-align: center;
     color: #ffffff;
   }
+
+  /*------------ SECCIÓN INVITACION -------------------*/
   
   .invitacion {
     display: flex;
@@ -58,6 +60,38 @@
     width: 80%; /* Ajusta el ancho de la imagen dentro de su contenedor */
     margin-top: 1em;
   }
+
+    /*------------------ SECCIÓN FLAYER DE TORNEO -------------------- */
+
+    .torneo {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: left; /* Alinear el texto a la izquierda */
+      margin-bottom: 2em;
+    }
+
+    .torneo .texto h2 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+    
+    .torneo .texto p {
+      font-size: 1.5em;
+      margin-bottom: 1em;
+    }
+    
+    .torneo .img_torneo {
+      display: flex;
+      justify-content: center; /* Centrar la imagen horizontalmente */
+    }
+    
+    .torneo .imagen img {
+      width: 100%; /* Ajusta el ancho de la imagen dentro de su contenedor */
+      margin-top: 1em;
+    }
+
+  /*----------- SECCOÓN HORARIOS ---------------*/
   
   .horario {
     display: flex;

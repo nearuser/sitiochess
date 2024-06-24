@@ -2,6 +2,7 @@
 import React from 'react';
 import './inicio.css';
 import invitacionImg from '../recursos/imagenes/iniciochch.jpg'; // Asegúrate de que la ruta sea correcta
+import torneoimg from '../recursos/imagenes/torneo.jpg'
 
 function Inicio() {
   return (
@@ -17,7 +18,18 @@ function Inicio() {
         </div>
       </section>
 
-      {/* Segunda Sección: Horario de Juntas Semanales */}
+      {/**--------------------- TORNEO DE JULIO 2024 ------------------------ */}
+
+      <section className="torneo">
+        <div className="texto">
+          <h2>1er Torneo de ajedrez escolar - comuna de Chile Chico</h2>
+        </div>
+        <div className="img_torneo">
+          <img src={torneoimg} alt="flayer torneo ajedrez" />
+        </div>
+      </section>
+
+      {/*------------------ HORARIOS --------------------- */}
       <section className="horario">
         <h2>Horario de Juntas Semanales</h2>
         <p>Nos reunimos todos los sábados desde las 16:00 hrs en adelante en la Bibliote Municipal.</p>
@@ -30,15 +42,15 @@ function Inicio() {
         ></iframe>
       </section>
 
-      {/* Tercera Sección: Noticias */}
-      <section className="noticias">
+      {/* ---------------- NOTICIAS -------------------- */}
+      {/* <section className="noticias">
         <h2>Noticias sobre la escena del ajedrez en Chile</h2>
         <ul>
           <li><a href="#noticia1">Noticia 1: Torneo Nacional de Ajedrez</a></li>
           <li><a href="#noticia2">Noticia 2: Nuevas estrategias en el ajedrez</a></li>
           <li><a href="#noticia3">Noticia 3: Entrevista con el campeón regional</a></li>
         </ul>
-      </section>
+      </section> */}
     </main>
   );
 }
